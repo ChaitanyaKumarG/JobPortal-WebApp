@@ -1,38 +1,45 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+ direction: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  /* Set the height to 100% of the viewport height for vertical centering */
 }
 
-.App-link {
-  color: #61dafb;
+.center-content {
+  text-align: center;
+}
+.form-control {
+  outline: none;
+  
+}
+.form-control:focus {
+  border-color: #ced4da;
+  /* Change the border color on focus */
+  border-width: 1px;
+  /* Optionally, adjust the border width */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.const {
+    background-image: 'https://cdn.wallpapersafari.com/51/27/78VlbA.jpg' !important ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.lp{
+
+    background-image: 'https: //wallpapercave.com/wp/wp8623049.png' !important ;
+    background-size: cover;
+  background-color: rgba(13, 13, 91, 0.355);
+
+
 }
