@@ -8,8 +8,8 @@ const Userloginpage = () => {
             var password = document.getElementById('password').value;
 
             // Hardcoded user credentials for simplicity
-            var validUsername = 'ravi@skepitglobal.com';
-            var validPassword = 'ravitej9@L';
+            var validUsername = '123';
+            var validPassword = '123';
 
             if (username === validUsername && password === validPassword) {
                  window.history.pushState(null, '', '/userdetailspage');

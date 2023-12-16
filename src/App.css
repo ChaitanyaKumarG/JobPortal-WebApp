@@ -43,3 +43,20 @@ a {
 
 
 }
+.ps{
+  background-color: #0b2137e7;
+}
+.ls{
+  width: 25%;
+  background-color: rgba(245, 245, 245, 0.984);
+}
+.tas{
+text-align: start;
+  
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
